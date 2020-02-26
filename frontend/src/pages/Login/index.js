@@ -12,7 +12,7 @@ export default ({ history }) => {
 
 		const response = await api.post('/sessions', { email })
 
-		const { _id } = response.data
+		const { _id } = await response.data
 
 		localStorage.setItem('user', _id)
 

@@ -30,6 +30,7 @@ ul.spot-list li {
 }
 
 ul.spot-list header {
+	max-width: 120px;
 	width: 100%;
 	height: 120px;
 	background-size: cover;
