@@ -1,1 +1,0 @@
-Placar Desenvolvido em ReactJs
