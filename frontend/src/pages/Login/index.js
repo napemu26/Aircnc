@@ -11,11 +11,8 @@ export default ({ history }) => {
 		e.preventDefault()
 
 		const response = await api.post('/sessions', { email })
-
-		const { _id } = await response.data
-
+		const { _id } = response.data
 		localStorage.setItem('user', _id)
-
 		history.push('/dashboard')
 	}
 
